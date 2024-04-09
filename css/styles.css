@@ -165,12 +165,62 @@ h2 {
   line-height: 20px;
 }
 
-
 /* ------------------------- FINE FORMATTAZIONE HOME PAGE BOX--------------------------------*/
+
+/* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
+#footer {
+  background-color: rgba(133, 159, 243, 0.1);;
+  color: #D757F6;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #D757F6;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  color: #D757F6;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #D757F6;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #D757F6;
+}
+
+/* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 
 /* ------------------------- QUERY @MEDIA RESPONSIVE  --------------------------------*/
 
-/* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 550 PX--------------------------------*/
+/* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 1250px --------------------------------*/
 @media only screen and (max-width: 1250px) {
   * {
     font-size: 6pt;
@@ -219,8 +269,11 @@ h2 {
 
   }
 }
+/* ------------------------- FINE QUERY @MEDIA RESPONSIVE MAX WIDTH 1250px --------------------------------*/
 
-@media only screen and (max-width: 600px) {
+/* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 768px --------------------------------*/
+
+@media only screen and (max-width: 768px) {
 
   *{ font-size: 10pt;}
   .dropdown .btn {
@@ -289,7 +342,15 @@ h2 {
   .text {
     font-size: 11px
   }
-
+  .social-media {
+    text-align: left;
+  }
+  .links {
+    text-align: left;
+  }
 }
-
+/* ------------------------- FINE QUERY @MEDIA RESPONSIVE MAX WIDTH 768px --------------------------------*/
 /* ------------------------- FINE @MEDIA RESPONSIVE--------------------------------*/
+
+
+
