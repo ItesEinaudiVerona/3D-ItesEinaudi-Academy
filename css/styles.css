@@ -167,6 +167,10 @@ h2 {
 /* ------------------------- FINE FORMATTAZIONE HOME PAGE BOX--------------------------------*/
 
 /* ------------------------- FORMATTAZIONE SCORRIMENTO NEWS--------------------------------*/
+.marquee-box {
+  margin: 50px;
+}
+
 .image-container {
   position: relative;
   
