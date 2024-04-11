@@ -34,12 +34,12 @@ nav {
   flex-wrap: wrap;
   padding: 14px 16px;
   text-decoration: none;
-  color: #d670ef;
+  color: #2b1dee;
   border-radius: 5%;
 }
 
 .navbar .active {
-  background-color: #d670ef;
+  background-color: #2b1dee;
   color: white;
 }
 
@@ -57,7 +57,7 @@ nav {
   font-size: 8pt;
   border: none;
   outline: none;
-  color: #d670ef;
+  color: #2b1dee;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -67,16 +67,16 @@ nav {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #2b1dee;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(214, 112, 239, 1);
+  box-shadow: 0px 8px 16px 0px rgba(43, 29, 238, 1);
   z-index: 1;
   border-radius: 5%;
 }
 
 .dropdown-menu a {
   float: none;
-  color: #d670ef;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -85,12 +85,12 @@ nav {
 
 .navbar a:hover,
 .dropdown:hover .btn {
-  background-color: #d670ef;
+  background-color: #2b1dee;
   color: white;
 }
 
 .dropdown-menu a:hover {
-  background-color: #d670ef;
+  background-color: #2b1dee;
   color: white;
 
 }
@@ -117,7 +117,7 @@ nav {
 #logo-text span {
   font-size: 1.2rem;
   text-wrap: nowrap;
-  color: #c640e8;
+  color: #2b1dee;
   font-family: Welcome;
 }
 
@@ -148,7 +148,7 @@ nav {
 }
 
 h1 {
-  color: #D757F6;
+  color: #2b1dee;
   font-size: 20pt;
   text-align: left;
   margin-left: 10%;
@@ -190,7 +190,7 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #D757F6;
+  background-color: #2b1dee;
   color: white;
   font-size: 8pt;
   font-weight: bold;
@@ -204,7 +204,7 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #D757F6;
+  background-color: #2b1dee;
   color: white;
   font-size: 8pt;
   font-weight: bold;
@@ -218,7 +218,7 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #D757F6;
+  background-color: #2b1dee;
   color: white;
   font-size: 8pt;
   font-weight: bold;
@@ -232,7 +232,7 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #D757F6;
+  background-color: #2b1dee;
   color: white;
   font-size: 8pt;
   font-weight: bold;
@@ -246,7 +246,7 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #D757F6;
+  background-color: #2b1dee;
   color: white;
   font-size: 8pt;
   font-weight: bold;
@@ -278,7 +278,7 @@ h2 {
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
-  color: #D757F6;
+  color: #2b1dee;
   padding: 20px 0;
 }
 
@@ -294,13 +294,13 @@ h2 {
 
 .social-media a {
   margin: 0 10px;
-  color: #D757F6;
+  color: #2b1dee;
   font-size: 20px;
   transition: 0.3s;
 }
 
 .social-media a:hover {
-  color: #D757F6;
+  color: #2b1dee;
 }
 
 .copyright {
@@ -315,13 +315,13 @@ h2 {
 
 .links a {
   margin: 0 10px;
-  color: #D757F6;
+  color: #2b1dee;
   font-size: 16px;
   transition: 0.3s;
 }
 
 .links a:hover {
-  color: #D757F6;
+  color: #2b1dee;
 }
 
 /* ------------------------- FINE FORMATTAZIONE FOOTER --------------------------------*/
@@ -398,7 +398,7 @@ h2 {
     position: absolute;
     left: 50;
     top: 100;
-    color: #d670ef;
+    color: #2b1dee;
   }
 
   .navbar.responsive a {
