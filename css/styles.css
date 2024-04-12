@@ -318,7 +318,8 @@ p {
   margin: 0;
   padding: 0;
 }
-
+/* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
+/* ------------------------- INIZIO FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 .box-studenti-contenuti-materie {
   width: 80%;
   margin: 2% auto;
@@ -329,6 +330,13 @@ p {
   color: var(--primary-color);
   text-align: center;
 }
+.box-studenti-contenuti-materie h3 {
+font-size: 1.5rem;
+}
+.box-studenti-contenuti-materie li {
+line-height: 1.5em;
+}
+/* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
 /* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
 
