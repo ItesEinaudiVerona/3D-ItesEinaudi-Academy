@@ -332,7 +332,7 @@ h2 {
 /* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 1250px --------------------------------*/
 @media only screen and (max-width: 1250px) {
   * {
-    font-size: 6pt;
+    font-size: 8pt;
   }
 
   #logo img {
@@ -340,7 +340,7 @@ h2 {
   }
 
   .dropdown .btn {
-    font-size: 6pt;
+    font-size: 8pt;
   }
 
 }
@@ -352,6 +352,15 @@ h2 {
 
   .dropdown-menu {
     margin-left: 50px;
+  }
+
+  .dropdown .btn {
+    font-size: 8pt;
+  }
+
+  .navbar a {
+    padding: 12px 6px;
+    font-size: 8pt;
   }
 
   .homepage-box {
