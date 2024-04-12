@@ -173,13 +173,13 @@ h2 {
   line-height: 20px;
 }
 
-p{
+p {
   color: var(--text-color-p);
 }
 
 /* ------------------------- FINE FORMATTAZIONE HOME PAGE BOX--------------------------------*/
 
-/* ------------------------- FORMATTAZIONE SCORRIMENTO NEWS--------------------------------*/
+/* ------------------------- FORMATTAZIONE SCORRIMENTO NEWS HOME PAGE BOX--------------------------------*/
 .marquee-box {
   margin: 50px;
 }
@@ -292,7 +292,45 @@ p{
   text-decoration: none;
 }
 
-/* ------------------------- FINE FORMATTAZIONE SCORRIMENTO NEWS--------------------------------*/
+/* ------------------------- FINE FORMATTAZIONE SCORRIMENTO NEWS HOME PAGE BOX--------------------------------*/
+
+
+/* ------------------------- FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
+.box-studenti {
+  display: flex;
+  width: 80%;
+  margin: 2% 10%;
+}
+
+.box-studenti aside {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-studenti aside a {
+  text-decoration: none;
+}
+
+.box-studenti figure {
+  width: 70%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.box-studenti-contenuti-materie {
+  width: 80%;
+  margin: 2% auto;
+}
+
+.box-studenti-contenuti-materie h3,
+.box-studenti-contenuti-materie h4 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
@@ -429,7 +467,8 @@ p{
     position: absolute;
     left: 50;
     top: 100;
-    color: var(--primary-color);;
+    color: var(--primary-color);
+    ;
   }
 
   .navbar.responsive a {
