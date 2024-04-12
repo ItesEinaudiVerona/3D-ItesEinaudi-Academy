@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #2b1dee;
+  --text-color: white;
+  --page-background-color: rgba(133, 159, 243, 0.1);
+  --text-color-h2: gray;
+  --text-color-p: gray;
+}
+
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 8pt;
@@ -5,7 +14,7 @@
 }
 
 body {
-  background-color: rgba(133, 159, 243, 0.1);
+  background-color: var(--page-background-color);
 }
 
 @font-face {
@@ -34,13 +43,13 @@ nav {
   flex-wrap: wrap;
   padding: 14px 16px;
   text-decoration: none;
-  color: #2b1dee;
+  color: var(--primary-color);
   border-radius: 5%;
 }
 
 .navbar .active {
-  background-color: #2b1dee;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .icon {
@@ -57,7 +66,7 @@ nav {
   font-size: 8pt;
   border: none;
   outline: none;
-  color: #2b1dee;
+  color: var(--primary-color);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -67,7 +76,6 @@ nav {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #2b1dee;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(43, 29, 238, 1);
   z-index: 1;
@@ -76,8 +84,8 @@ nav {
 
 .dropdown-menu a {
   float: none;
-  color: #2b1dee;
-  background-color: white;
+  color: var(--primary-color);
+  background-color: var(--page-background-color);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -85,14 +93,14 @@ nav {
 }
 
 .navbar a:hover,
-.dropdown:hover .btn {
-  background-color: #2b1dee;
-  color: white;
+.dropdown:hover .btn:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .dropdown-menu a:hover {
-  background-color: white;
-  color: #2b1dee;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 
 }
 
@@ -118,7 +126,7 @@ nav {
 #logo-text span {
   font-size: 1.2rem;
   text-wrap: nowrap;
-  color: #2b1dee;
+  color: var(--primary-color);
   font-family: Welcome;
 }
 
@@ -149,7 +157,7 @@ nav {
 }
 
 h1 {
-  color: #2b1dee;
+  color: var(--primary-color);
   font-size: 20pt;
   text-align: left;
   margin-left: 10%;
@@ -158,11 +166,15 @@ h1 {
 }
 
 h2 {
-  color: #444444;
+  color: var(--text-color-h2);
   font-size: 12pt;
   text-align: left;
   margin-left: 10%;
   line-height: 20px;
+}
+
+p{
+  color: var(--text-color-p);
 }
 
 /* ------------------------- FINE FORMATTAZIONE HOME PAGE BOX--------------------------------*/
@@ -174,9 +186,10 @@ h2 {
 
 .image-container {
   position: relative;
-  
+
 }
-.image-container img{
+
+.image-container img {
   width: 150px;
   height: 120px;
   margin: 0 50px;
@@ -191,54 +204,58 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #2b1dee;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   font-size: 8pt;
   font-weight: bold;
   padding-left: 5px;
 }
+
 .image-text1 {
   position: absolute;
   width: 150px;
   top: 90%;
-  left: 378px;
+  left: 379px;
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #2b1dee;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   font-size: 8pt;
   font-weight: bold;
   padding-left: 5px;
 }
+
 .image-text2 {
   position: absolute;
   width: 150px;
   top: 90%;
-  left: 633px;
+  left: 632.5px;
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #2b1dee;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   font-size: 8pt;
   font-weight: bold;
   padding-left: 5px;
 }
+
 .image-text3 {
   position: absolute;
   width: 150px;
   top: 90%;
-  left: 886px;
+  left: 886.5px;
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #2b1dee;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   font-size: 8pt;
   font-weight: bold;
   padding-left: 5px;
 }
+
 .image-text4 {
   position: absolute;
   width: 150px;
@@ -247,39 +264,39 @@ h2 {
   height: 25px;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background-color: #2b1dee;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   font-size: 8pt;
   font-weight: bold;
   padding-left: 5px;
 }
 
 
-  /* unvisited link */ 
-  .image-container a:link {
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  .image-container a:visited {
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  .image-container a:hover {
-    text-decoration: none;
-  }
-  
-  /* selected link */
-  .image-container a:active {
-    text-decoration: none;
-  }
+/* unvisited link */
+.image-container a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+.image-container a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+.image-container a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+.image-container a:active {
+  text-decoration: none;
+}
 
 /* ------------------------- FINE FORMATTAZIONE SCORRIMENTO NEWS--------------------------------*/
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
-  color: #2b1dee;
+  color: var(--primary-color);
   padding: 20px 0;
 }
 
@@ -295,13 +312,13 @@ h2 {
 
 .social-media a {
   margin: 0 10px;
-  color: #2b1dee;
+  color: var(--primary-color);
   font-size: 20px;
   transition: 0.3s;
 }
 
 .social-media a:hover {
-  color: #2b1dee;
+  color: var(--primary-color);
 }
 
 .copyright {
@@ -316,13 +333,13 @@ h2 {
 
 .links a {
   margin: 0 10px;
-  color: #2b1dee;
+  color: var(--primary-color);
   font-size: 16px;
   transition: 0.3s;
 }
 
 .links a:hover {
-  color: #2b1dee;
+  color: var(--primary-color);
 }
 
 /* ------------------------- FINE FORMATTAZIONE FOOTER --------------------------------*/
@@ -387,15 +404,19 @@ h2 {
 
   }
 }
+
 /* ------------------------- FINE QUERY @MEDIA RESPONSIVE MAX WIDTH 1250px --------------------------------*/
 
 /* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 768px --------------------------------*/
 
 @media only screen and (max-width: 768px) {
 
-  *{ font-size: 10pt;}
-  .dropdown .btn {
+  * {
     font-size: 10pt;
+  }
+
+  .dropdown .btn {
+    font-size: 8pt;
   }
 
   .navbar a:not(:first-child),
@@ -408,7 +429,7 @@ h2 {
     position: absolute;
     left: 50;
     top: 100;
-    color: #2b1dee;
+    color: var(--primary-color);;
   }
 
   .navbar.responsive a {
@@ -432,20 +453,20 @@ h2 {
 
   .homepage-box {
     margin: 0 auto;
-   }
- 
-   .fade img {
-     max-width: 325px;
-     max-height: 350px;
- 
-   }
- 
-   .numbertext,
-   .text {
-     max-width: 325px;
-     max-height: 350px;
- 
-   }
+  }
+
+  .fade img {
+    max-width: 325px;
+    max-height: 350px;
+
+  }
+
+  .numbertext,
+  .text {
+    max-width: 325px;
+    max-height: 350px;
+
+  }
 
   h1 {
     margin-top: 7%;
@@ -460,15 +481,15 @@ h2 {
   .text {
     font-size: 11px
   }
+
   .social-media {
     text-align: left;
   }
+
   .links {
     text-align: left;
   }
 }
+
 /* ------------------------- FINE QUERY @MEDIA RESPONSIVE MAX WIDTH 768px --------------------------------*/
 /* ------------------------- FINE @MEDIA RESPONSIVE--------------------------------*/
-
-
-
