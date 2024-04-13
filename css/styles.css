@@ -350,7 +350,7 @@ p {
   line-height: 1.5em;
 }
 
-#pulsante, #chimica {
+#pulsante, #chimica, #italiano, #storia {
   height: 60px;
   width: 200px;
   outline: none;
@@ -380,8 +380,29 @@ p {
 }
 #chimica:hover {
   color: var(--primary-color);
-  background-image: url(../images/PageStudenti/background-pulsante.png);
+  background-image: url(../images/PageStudenti/background-pulsante-chimica.png);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+#italiano:hover {
+  color: transparent;
+  background-image: url(../images/PageStudenti/background-pulsante-italiano.png);
+  background-repeat: round;
+  background-size: cover;
+}
+#storia:hover {
+  color: transparent;
+  background-image: url(../images/PageStudenti/background-pulsante-storia.jpg);
+  background-repeat: round;
+  background-size: cover;
+}
+#pulsante:visited {
+  color: var(--color-visited);
+
+#storia::after {
+  color: transparent;
+  background-image: url(../images/PageStudenti/background-pulsante-storia.jpg);
+  background-repeat: round;
   background-size: cover;
 }
 
@@ -391,9 +412,7 @@ p {
   color: var(--color-active);
 }
 
-#pulsante:visited {
-  color: var(--color-visited);
-}
+
 
 /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
