@@ -437,7 +437,9 @@ color: var(--color-visited);
   .links a:hover {
     color: var(--primary-color);
   }
-
+  #anno-corrente{
+    color: var(--primary-color);
+  }
   /* ------------------------- FINE FORMATTAZIONE FOOTER --------------------------------*/
 
   /* ------------------------- QUERY @MEDIA RESPONSIVE  --------------------------------*/
