@@ -380,10 +380,10 @@ p {
 }
 
 .pulsante:active {
-color: red;
+color: var(--color-active);
 }
 .pulsante:visited {
-color: yellow; 
+color: var(--color-visited); 
 }
  
   /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
