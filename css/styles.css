@@ -350,7 +350,7 @@ p {
   line-height: 1.5em;
 }
 
-#pulsante {
+.pulsante {
   height: 60px;
   width: 200px;
   outline: none;
@@ -358,7 +358,7 @@ p {
   text-align: center;
   text-decoration: none;
   font: bold 12px Arial, Helvetica, sans-serif;
-  color: #fff;
+  color:var(--text-color);
   border: solid 1px var(--prymary-border);
   background: var(--primary-color);
   -moz-border-radius: 20px;
@@ -369,7 +369,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-#pulsante:hover {
+.pulsante:hover {
   background: var(--background-hover);
   background: -webkit-linear-gradient(linear, left top, left bottom, from(var(--gradient-start)), to(var(--gradient-end)));
   background: -webkit-linear-gradient(top, var(--gradient-start), var(--gradient-end));
@@ -379,29 +379,13 @@ p {
   background-image: linear-gradient(to top, var(--gradient-start), var(--gradient-end));
 }
 
-#chimica:hover {
-  color: var(--primary-color);
-  background-image: url(../images/PageStudenti/background-pulsante-chimica.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.pulsante:active {
+color: red;
 }
-
-#italiano:hover {
-  color: transparent;
-  background-image: url(../images/PageStudenti/background-pulsante-italiano.png);
-  background-repeat: round;
-  background-size: cover;
+.pulsante:visited {
+color: yellow !important; 
 }
-
-#storia:visited {
-  color: transparent;
-  background-image: url(../images/PageStudenti/background-pulsante-storia.jpg);
-  background-repeat: round;
-  background-size: cover;
-}
-
-
-  */
+ 
   /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
   /* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
