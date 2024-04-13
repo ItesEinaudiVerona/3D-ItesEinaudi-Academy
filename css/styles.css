@@ -1,7 +1,14 @@
 :root {
   --primary-color: #2b1dee;
+  --prymary-border: #0076a3;
   --text-color: white;
   --page-background-color: rgba(133, 159, 243, 0.1);
+  --background-hover: #0095cd;
+  --gradient-start: #0078a5;
+  --gradient-end: #00adee;
+  --box-shadow: rgba(43, 29, 238, 1);
+  --color-active: yellow;
+  --color-visited: red;
   --text-color-h2: gray;
   --text-color-p: gray;
 }
@@ -77,7 +84,7 @@ nav {
   display: none;
   position: absolute;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(43, 29, 238, 1);
+  box-shadow: 0px 8px 16px 0px var(--box-shadow);
   z-index: 1;
   border-radius: 5%;
 }
@@ -303,21 +310,25 @@ p {
 }
 
 .box-studenti aside {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 204px);
+  gap: 5px;
 }
 
 .box-studenti aside a {
   text-decoration: none;
+  align-self: center;
+  justify-self: center;
 }
 
 .box-studenti figure {
-  width: 70%;
+  width: 30%;
   text-align: right;
   margin: 0;
   padding: 0;
 }
+
 /* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
 /* ------------------------- INIZIO FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 .box-studenti-contenuti-materie {
@@ -330,12 +341,60 @@ p {
   color: var(--primary-color);
   text-align: center;
 }
+
 .box-studenti-contenuti-materie h3 {
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
+
 .box-studenti-contenuti-materie li {
-line-height: 1.5em;
+  line-height: 1.5em;
 }
+
+#pulsante, #chimica {
+  height: 60px;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px Arial, Helvetica, sans-serif;
+  color: #fff;
+  border: solid 1px var(--prymary-border);
+  background: var(--primary-color); 
+    -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  -moz-box-shadow: 0 1px 3px var(--box-shadow);
+  -webkit-box-shadow: 0 1px 3px var(--box-shadow);
+  box-shadow: var(--box-shadow);
+}
+
+#pulsante:hover {
+  background: var(--background-hover);
+  background: -webkit-linear-gradient(linear, left top, left bottom, from(var(--gradient-start)), to(var(--gradient-end)));
+  background: -webkit-linear-gradient(top, var(--gradient-start), var(--gradient-end));
+  background: -moz-linear-gradient(top, var(--gradient-start), var(--gradient-end));
+  background: -ms-linear-gradient(top, var(--gradient-start), var(--gradient-end));
+  background: -o-linear-gradient(top, var(--gradient-start), var(--gradient-end));
+  background-image: linear-gradient(to top, var(--gradient-start), var(--gradient-end));
+}
+#chimica:hover {
+  color: var(--primary-color);
+  background-image: url(../images/PageStudenti/background-pulsante.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pulsante:active {
+  position: relative;
+  top: 1px;
+  color: var(--color-active);
+}
+
+#pulsante:visited {
+  color: var(--color-visited);
+}
+
 /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
 /* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
