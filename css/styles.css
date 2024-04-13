@@ -438,6 +438,9 @@ color: var(--color-visited);
     color: var(--primary-color);
   }
 
+  #anno-corrente{
+    color: var(--primary-color);
+  }
   /* ------------------------- FINE FORMATTAZIONE FOOTER --------------------------------*/
 
   /* ------------------------- QUERY @MEDIA RESPONSIVE  --------------------------------*/
