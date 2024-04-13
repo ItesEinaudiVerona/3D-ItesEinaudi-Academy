@@ -383,7 +383,7 @@ p {
 color: red;
 }
 .pulsante:visited {
-color: yellow !important; 
+color: yellow; 
 }
  
   /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
