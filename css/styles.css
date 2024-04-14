@@ -370,45 +370,47 @@ aside {
 
   /* ------------------------- INIZIO FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
-  #Titolo-Studenti {
-    margin-top: 3.5%;
-    margin-left: 2%;
-  }
+#Titolo-Studenti {
+  margin-top: 3.5%;
+  margin-left: 7%;
+}
 
-  #Titolo-Materia {
-    margin-top: 3%;
-    margin-left: 4%;
-    color: var(--primary-color);
-    font-size: 16pt;
-    display: block;
-  }
+#Titolo-Materia {
+  margin-top: 3%;
+  margin-left: 10%;
+  color: var(--primary-color);
+  font-size: 16pt;
+  display: block;
+}
 
 
-  #immage-studenti {
-    position: absolute;
-    right: 12%;
-  }
+#immage-studenti {
+  position: absolute;
+  right: 12%;
+}
 
-  .box-studenti-contenuti-materie {
-    width: 50%;
-    margin-top: 5%;
-  }
+.box-studenti-contenuti-materie {
+  width: 50%;
+  margin-top: 5%;
+}
 
-  .box-studenti-contenuti-materie h3,
-  .box-studenti-contenuti-materie h4 {
-    color: var(--primary-color);
-    text-align: center;
-  }
+.box-studenti-contenuti-materie h3,
+.box-studenti-contenuti-materie h4 {
+  color: var(--primary-color);
+  text-align: center;
+}
 
-  .box-studenti-contenuti-materie h3 {
-    font-size: 1.5rem;
-  }
+.box-studenti-contenuti-materie h3 {
+  font-size: 1.5rem;
+  margin-left: 10%;
+}
 
-  .box-studenti-contenuti-materie li {
-    line-height: 1.5em;
-  }
+.box-studenti-contenuti-materie li {
+  line-height: 1.5em;
+  margin-left: 10%;
+}
 
-  /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
+/* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
   /*----------------------------- CHIUSURA CONTENUTI PAGINA STUDENTI A DESTRA --------------------------------------*/
 
