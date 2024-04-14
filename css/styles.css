@@ -24,6 +24,11 @@ body {
   background-color: var(--page-background-color);
 }
 
+.boxSidebarEContenuti {
+  display: flex;
+}
+
+
 @font-face {
   font-family: Welcome;
   src: url(../fonts/Welcome.ttf);
@@ -301,64 +306,31 @@ p {
 
 /* ------------------------- FINE FORMATTAZIONE SCORRIMENTO NEWS HOME PAGE BOX--------------------------------*/
 
-
-/* ------------------------- FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
-.box-studenti {
-  display: flex;
-  width: 80%;
-  margin: 2% 10%;
-}
-
-.box-studenti aside {
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 204px);
-  gap: 5px;
-}
-
-.box-studenti aside a {
-  text-decoration: none;
-  align-self: center;
-  justify-self: center;
-}
-
-.box-studenti figure {
-  width: 30%;
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-
-/* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
-/* ------------------------- INIZIO FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
-.box-studenti-contenuti-materie {
+/* -------------------------- FORMATTAZIONE PAGINA STUDENTI E CONTENUTI --------------------------------------*/
+.boxSidebarEContenuti {
   width: 80%;
   margin: 2% auto;
+  display: flex;
 }
 
-.box-studenti-contenuti-materie h3,
-.box-studenti-contenuti-materie h4 {
-  color: var(--primary-color);
-  text-align: center;
-}
 
-.box-studenti-contenuti-materie h3 {
-  font-size: 1.5rem;
-}
-
-.box-studenti-contenuti-materie li {
-  line-height: 1.5em;
+/* ------------------------- FORMATTAZIONE PAG STUDENTI BARRA LATERALE SINISTRA ------------------------------*/
+aside {
+  width: 15%;
+  display: block;
+  margin: 2% 0;
 }
 
 .pulsante {
-  height: 60px;
+  height: 30px;
   width: 200px;
+  margin: 1%;
   outline: none;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  font: bold 12px Arial, Helvetica, sans-serif;
-  color:var(--text-color);
+  font: bold 10px Arial, Helvetica, sans-serif;
+  color: var(--text-color);
   border: solid 1px var(--prymary-border);
   background: var(--primary-color);
   -moz-border-radius: 20px;
@@ -380,15 +352,68 @@ p {
 }
 
 .pulsante:active {
-color: var(--color-active);
+  color: var(--color-active);
 }
+
 .pulsante:visited {
-color: var(--color-visited); 
+  color: var(--color-visited);
 }
- 
+
+/* ------------------------- FORMATTAZIONE BARRA LATERALE SINISTRA---------------------------------------*/
+
+/*----------------------------- CONTENUTI PAGINA STUDENTI A DESTRA --------------------------------------*/
+
+.box-studenti {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+
+  /* ------------------------- INIZIO FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
+
+  #Titolo-Studenti {
+    margin-top: 3.5%;
+    margin-left: 2%;
+  }
+
+  #Titolo-Materia {
+    margin-top: 3%;
+    margin-left: 4%;
+    color: var(--primary-color);
+    font-size: 16pt;
+    display: block;
+  }
+
+
+  #immage-studenti {
+    position: absolute;
+    right: 12%;
+  }
+
+  .box-studenti-contenuti-materie {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .box-studenti-contenuti-materie h3,
+  .box-studenti-contenuti-materie h4 {
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .box-studenti-contenuti-materie h3 {
+    font-size: 1.5rem;
+  }
+
+  .box-studenti-contenuti-materie li {
+    line-height: 1.5em;
+  }
+
   /* ------------------------- FINE FORMATTAZIONE STUDENTI CONTENUTI MATERIE --------------------------------*/
 
-  /* ------------------------- FINE FORMATTAZIONE STUDENTI SIDEBAR --------------------------------*/
+  /*----------------------------- CHIUSURA CONTENUTI PAGINA STUDENTI A DESTRA --------------------------------------*/
+
+  /* -------------------------- FORMATTAZIONE PAGINA STUDENTI E CONTENUTI --------------------------------------*/
+
 
   /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
   #footer {
@@ -410,7 +435,7 @@ color: var(--color-visited);
     margin: 0 10px;
     color: var(--primary-color);
     font-size: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   .social-media a:hover {
@@ -437,9 +462,7 @@ color: var(--color-visited);
   .links a:hover {
     color: var(--primary-color);
   }
-  #anno-corrente{
-    color: var(--primary-color);
-  }
+
   /* ------------------------- FINE FORMATTAZIONE FOOTER --------------------------------*/
 
   /* ------------------------- QUERY @MEDIA RESPONSIVE  --------------------------------*/
