@@ -449,6 +449,10 @@ aside {
     margin-top: 10px;
   }
 
+  #anno-corrente {
+    color: var(--primary-color)
+  }
+
   .links {
     text-align: center;
     margin-top: 10px;
