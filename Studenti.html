@@ -51,7 +51,7 @@
   <!-----------------------------SIDEBAR LATERALE SINISTRA--------------------------------------------------------->
   <div class="boxSidebarEContenuti">
     <aside>
-      <a href="#"><button class="pulsante">Italiano</button></a>
+      <a href="#"><button class="pulsante" id="active">Italiano</button></a>
       <a href="#"><button class="pulsante">Lingue</button></a>
       <a href="#"><button class="pulsante">Prima lingua straniera: inglese</button></a>
       <a href="#"><button class="pulsante">
@@ -84,13 +84,17 @@
     <div class="box-studenti">
       <h1 id="Titolo-Studenti">STUDENTI</h1>
       <h2 id="Titolo-Materia">Italiano</h2>
-      <img id="immage-studenti"
-        src="images/PageStudenti/9959065-lezione-in-una-classe-di-scuola-immagine-3d-isolato[1].jpg" alt="" />
+      <div id="Studenti-box-Calendar">
+        <iframe id="responsive-iframe"
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FRome&bgcolor=%23ffffff&showPrint=0&showNav=0&mode=AGENDA&src=ZDEzZmUyNWIwMWE2ZmE1NGExMWI0ZTlmMmFhYmI2Y2E1Y2M0OGU5NjZjMjY3ZGY2N2M5ZjYyZDhmMmY5YTVhNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
+          width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+      </div>
       <div class="box-studenti-contenuti-materie">
         <h3>Classe prima</h3>
         <h4>Grammatica e Narrativa</h4>
         <ol>
-          <li>Verbo</li>
+          <li class="contenuti-materie-primo-livello">Verbo</li>
           <ul>
             <li>
               Fonetica, ortografia e Punteggiatura
@@ -113,7 +117,7 @@
               espressione orale
             </li>
           </ul>
-          <li>Frase semplice</li>
+          <li class="contenuti-materie-primo-livello">Frase semplice</li>
           <ul>
             <li>
               congiunzioni coordinanti
@@ -142,7 +146,7 @@
               espressione orale
             </li>
           </ul>
-          <li>Testo descrittivo e riassunto, tecniche base</li>
+          <li class="contenuti-materie-primo-livello">Testo descrittivo e riassunto, tecniche base</li>
           <ul>
             <li>
               Testo descrittivo oggettivo e
@@ -172,7 +176,7 @@
               titolare)
             </li>
           </ul>
-          <li>Testo narrativo, analisi narratologica di base</li>
+          <li class="contenuti-materie-primo-livello">Testo narrativo, analisi narratologica di base</li>
           <ul>
             <li>
               Testo narrativo su fatti reali,
@@ -208,7 +212,7 @@
               culturali
             </li>
           </ul>
-          <li>Modulo orientativo</li>
+          <li class="contenuti-materie-primo-livello">Modulo orientativo</li>
           <ul>
             <li>
               conoscenza delle tipologie di
