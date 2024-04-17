@@ -42,7 +42,6 @@ nav {
   justify-content: space-between;
   align-content: center;
   margin: 0 10%;
-  /*background-color: rgba(133, 159, 243, 0.1);*/
 }
 
 .navbar {
@@ -442,7 +441,36 @@ aside a #active {
 
 /*----------------------------- CHIUSURA CONTENUTI PAGINA STUDENTI A DESTRA --------------------------------------*/
 
+/*----------------------------- FORMATTAZIONE ACADEMICS TUR ------------------------------------------------*/
+.AcademicsMenu {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 10%;
+  line-height: 1.5em;
+}
 
+.AcademicsMenu a {
+  text-decoration: none;
+}
+
+
+.AcademicsMenu-dropdown-menu-primoLivello-biennio {
+  display: none;
+}
+
+.AcademicsMenu-dropdown-menu-primoLivello-triennio {
+  display: none;
+}
+
+.AcademicsMenu-dropdown-menu-secondoLivello-Biennio {
+  display: none;
+}
+
+.AcademicsMenu-dropdown-menu-secondoLivello-triennioRIM {
+  display: none;
+}
+
+/*----------------------------- CHIUSURA FORMATTAZIONE ACADEMICS TUR --------------------------------------*/
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
@@ -675,17 +703,18 @@ aside a #active {
     padding: 0;
     margin: 15% 0;
   }
-  .box-studenti-contenuti-materie{
+
+  .box-studenti-contenuti-materie {
     width: 100%;
   }
 
   .box-studenti-contenuti-materie ol ul li {
     margin-left: -10%;
-   }
+  }
 
   .box-studenti-contenuti-materie li {
     font-size: 7pt;
-   }
+  }
 
   #responsive-iframe {
     top: 125%;
@@ -694,7 +723,7 @@ aside a #active {
     height: 50%;
   }
 
-  #footer .social-media{
+  #footer .social-media {
     text-align: center;
     margin-top: 30%;
   }
