@@ -8,7 +8,7 @@
   --background-hover: #0095cd;
   --gradient-start: #0078a5;
   --gradient-end: #00adee;
-  --box-shadow: rgba(43, 29, 238, 1);
+  --box-shadow: rgb(7, 2, 84);
   --color-active: yellow;
   --color-visited: red;
   --text-color-h2: gray;
@@ -114,7 +114,6 @@ nav {
 .dropdown-menu a:hover {
   background-color: var(--primary-color);
   color: var(--text-color);
-
 }
 
 .dropdown:hover .dropdown-menu {
@@ -441,36 +440,7 @@ aside a #active {
 
 /*----------------------------- CHIUSURA CONTENUTI PAGINA STUDENTI A DESTRA --------------------------------------*/
 
-/*----------------------------- FORMATTAZIONE ACADEMICS TUR ------------------------------------------------*/
-.AcademicsMenu {
-  display: flex;
-  flex-direction: column;
-  margin: 3% 10%;
-  line-height: 1.5em;
-}
 
-.AcademicsMenu a {
-  text-decoration: none;
-}
-
-
-.AcademicsMenu-dropdown-menu-primoLivello-biennio {
-  display: none;
-}
-
-.AcademicsMenu-dropdown-menu-primoLivello-triennio {
-  display: none;
-}
-
-.AcademicsMenu-dropdown-menu-secondoLivello-Biennio {
-  display: none;
-}
-
-.AcademicsMenu-dropdown-menu-secondoLivello-triennioRIM {
-  display: none;
-}
-
-/*----------------------------- CHIUSURA FORMATTAZIONE ACADEMICS TUR --------------------------------------*/
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
