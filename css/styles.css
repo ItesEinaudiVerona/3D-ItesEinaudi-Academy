@@ -664,6 +664,11 @@ aside a #active {
     font-size: 11px
   }
 
+  #Iframe-Home-Calendar {
+    width: 400px;
+  
+  }
+
   .social-media {
     text-align: left;
   }
