@@ -202,7 +202,7 @@ p {
 
 /* ------------------------- FORMATTAZIONE SCORRIMENTO NEWS HOME PAGE BOX--------------------------------*/
 .marquee-box {
-  margin: 50px;
+  margin: var(--margin-page);
 }
 
 .image-container {
@@ -603,7 +603,7 @@ aside a #active {
 
   }
 
-  nav, .homepage-box {
+  nav, .homepage-box, .marquee-box {
     margin: var(--margin-page-mediaquery);
   }
   
