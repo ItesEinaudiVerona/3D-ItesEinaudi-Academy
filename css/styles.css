@@ -1,5 +1,7 @@
 :root {
-  --primary-color: /*#2b1dee*/ rgb(3, 31, 120);
+  --primary-color:
+    /*#2b1dee*/
+    rgb(3, 31, 120);
   --prymary-border: #0076a3;
   --text-color: white;
   --page-background-color: rgba(133, 159, 243, 0.1);
@@ -11,6 +13,9 @@
   --color-visited: red;
   --text-color-h2: #0078a5;
   --text-color-p: #0078a5;
+
+  --margin-page: 0 10%;
+  --margin-page-mediaquery: 0 2%;
 }
 
 
@@ -39,7 +44,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin: 0 10%;
+  margin: var(--margin-page);
 }
 
 .navbar {
@@ -154,7 +159,7 @@ nav {
 /* ------------------------- FORMATTAZIONE HOME PAGE BOX--------------------------------*/
 .homepage-box {
   display: flex;
-  margin: 0 10%;
+  margin: var(--margin-page);
   gap: 2%;
 }
 
@@ -189,7 +194,7 @@ p {
   font-size: 10pt;
 }
 
-.BoxHome-Calendar{
+.BoxHome-Calendar {
   text-align: center;
 }
 
@@ -324,7 +329,7 @@ p {
 /* -------------------------- FORMATTAZIONE PAGINA STUDENTI E CONTENUTI --------------------------------------*/
 .boxSidebarEContenuti {
   width: 80%;
-  margin: 2% auto;
+  margin: var(--margin-page);
   display: flex;
 }
 
@@ -459,6 +464,7 @@ aside a #active {
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
+  margin: var(--margin-page);
   color: var(--primary-color);
   padding: 20px 0;
 }
@@ -594,6 +600,16 @@ aside a #active {
 
   * {
     font-size: 10pt;
+
+  }
+
+  nav, .homepage-box {
+    margin: var(--margin-page-mediaquery);
+  }
+  
+  .homepage-description{
+    max-width: 95%;
+    margin: var(--margin-page-mediaquery)
   }
 
   .dropdown .btn {
@@ -666,7 +682,7 @@ aside a #active {
 
   #Iframe-Home-Calendar {
     width: 400px;
-  
+
   }
 
   .social-media {
@@ -693,7 +709,11 @@ aside a #active {
     padding: 0;
     margin: 15% 0;
   }
-
+  
+  .boxSidebarEContenuti{
+ width: 95%;
+    margin: var(--margin-page-mediaquery);
+  }
   .box-studenti-contenuti-materie {
     width: 100%;
   }
