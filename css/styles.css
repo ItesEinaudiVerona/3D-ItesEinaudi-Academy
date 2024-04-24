@@ -325,6 +325,11 @@ p {
 }
 
 /* ------------------------- FINE FORMATTAZIONE SCORRIMENTO NEWS HOME PAGE BOX--------------------------------*/
+/* -------------------------  FORMATTAZIONE CALENDARIO HOME PAGE BOX--------------------------------*/
+.BoxHome-Calendar {
+  margin: 2%;
+}
+/* ------------------------- FINE FORMATTAZIONE CALENDARIO HOME PAGE BOX--------------------------------*/
 
 /* -------------------------- FORMATTAZIONE PAGINA STUDENTI E CONTENUTI --------------------------------------*/
 .boxSidebarEContenuti {
