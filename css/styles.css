@@ -157,13 +157,17 @@ nav {
 /* ------------------------- FINE FORMATTAZIONE NAVBAR E LOGO --------------------------*/
 
 /* ------------------------- FORMATTAZIONE HOME PAGE BOX--------------------------------*/
-.homepage-box {
+.homepage-box,
+.box-Students_life,
+.box-Students_lifeHere {
   display: flex;
   margin: var(--margin-page);
   gap: 2%;
 }
 
-.homepage-description {
+.homepage-description,
+.box-Students_life-description,
+.box-Students_lifeHere-description {
   position: relative;
   line-height: 2.5em;
   max-width: 40%;
@@ -203,6 +207,8 @@ p {
 /* ------------------------- FORMATTAZIONE SCORRIMENTO NEWS HOME PAGE BOX--------------------------------*/
 .marquee-box {
   margin: var(--margin-page);
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .image-container {
@@ -329,6 +335,7 @@ p {
 .BoxHome-Calendar {
   margin: 2%;
 }
+
 /* ------------------------- FINE FORMATTAZIONE CALENDARIO HOME PAGE BOX--------------------------------*/
 
 /* -------------------------- FORMATTAZIONE PAGINA STUDENTI E CONTENUTI --------------------------------------*/
@@ -465,7 +472,18 @@ aside a #active {
 
 /*----------------------------- CHIUSURA CONTENUTI PAGINA STUDENTI A DESTRA --------------------------------------*/
 
+/* -------------------------- FORMATTAZIONE PAGINA STUDENT'S LIFE --------------------------------------*/
+.box-Students_life-image {
+  width: 60%;
+  text-align: right;
+}
 
+.box-Students_lifeHere-image {
+  width: 60%;
+  text-align: left;
+}
+
+/* -------------------------- CHIUSURA FORMATTAZIONE PAGINA STUDENT'S LIFE --------------------------------------*/
 
 /* ------------------------- INIZIO FORMATTAZIONE FOOTER --------------------------------*/
 #footer {
@@ -562,15 +580,33 @@ aside a #active {
     font-size: 8pt;
   }
 
-  .homepage-box {
+  .homepage-box,
+  .box-Students_life {
     display: flex;
     flex-direction: column-reverse;
+
+  }
+
+  .box-Students_lifeHere {
+    display: flex;
+    flex-direction: column;
 
   }
 
   .homepage-description {
     max-width: 80%;
     margin: 0 auto;
+  }
+
+  .box-Students_life-description,
+  .box-Students_lifeHere-description {
+    max-width: 80%;
+  }
+
+  .box-Students_life-image img,
+  .box-Students_lifeHere img {
+    max-width: 135%;
+    height: auto;
   }
 
   .fade img {
@@ -608,11 +644,13 @@ aside a #active {
 
   }
 
-  nav, .homepage-box, .marquee-box {
+  nav,
+  .homepage-box,
+  .marquee-box {
     margin: var(--margin-page-mediaquery);
   }
-  
-  .homepage-description{
+
+  .homepage-description {
     max-width: 95%;
     margin: var(--margin-page-mediaquery)
   }
@@ -714,11 +752,12 @@ aside a #active {
     padding: 0;
     margin: 15% 0;
   }
-  
-  .boxSidebarEContenuti{
- width: 95%;
+
+  .boxSidebarEContenuti {
+    width: 95%;
     margin: var(--margin-page-mediaquery);
   }
+
   .box-studenti-contenuti-materie {
     width: 100%;
   }
