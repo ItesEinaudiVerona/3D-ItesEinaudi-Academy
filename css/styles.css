@@ -158,11 +158,16 @@ nav {
 
 /* ------------------------- FORMATTAZIONE HOME PAGE BOX--------------------------------*/
 .homepage-box,
-.box-Students_life,
-.box-Students_lifeHere {
+.box-Students_life {
   display: flex;
   margin: var(--margin-page);
   gap: 2%;
+}
+
+.box-Students_lifeHere {
+  display: flex;
+  margin: var(--margin-page);
+  gap: 12%;
 }
 
 .homepage-description,
@@ -175,6 +180,9 @@ nav {
   margin: 10px 0;
   text-align: justify;
 }
+
+
+
 
 h1 {
   color: var(--primary-color);
@@ -200,6 +208,15 @@ p {
 
 .BoxHome-Calendar {
   text-align: center;
+}
+.box-Students_lifeHere-description p {
+  margin-top: -10px;
+}
+
+#box-Students_lifeHere_title{
+  margin: var(--margin-page);
+  padding: 20px 0;
+
 }
 
 /* ------------------------- FINE FORMATTAZIONE HOME PAGE BOX--------------------------------*/
@@ -479,7 +496,7 @@ aside a #active {
 }
 
 .box-Students_lifeHere-image {
-  width: 60%;
+  width: auto;
   text-align: left;
 }
 
@@ -557,6 +574,12 @@ aside a #active {
     font-size: 8pt;
   }
 
+  .box-Students_lifeHere {
+    display: flex;
+    margin: var(--margin-page);
+    gap: 2%;
+  }
+
 }
 
 /* ------------------------- FINE QUERY @MEDIA RESPONSIVE MAX WIDTH 1250px --------------------------------*/
@@ -611,7 +634,7 @@ aside a #active {
   }
 
   #box-Students_lifeHere-calendar {
-    max-width: 175%;
+    max-width: 100%;
   }
   .fade img {
     max-width: 400px;
